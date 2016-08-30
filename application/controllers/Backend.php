@@ -10,7 +10,7 @@ class Backend extends CI_Controller {
 	}
 
 
-	public function dashboard($halaman = 'Content')
+	public function dashboard($halaman = 'home')
 	{
 		$this->load->view('backend/head');
 		$this->load->view('backend/wrapperhead');
